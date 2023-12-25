@@ -3,7 +3,7 @@ import os
 dayno = projno = 31
 
 # ADD FOLDER NAME
-name = "helio"
+name = "4.4 Resume building"
 parent_directory = f"E:/Programmer/Web-Devlopment"  # Replace with the actual parent directory path
 path_name = os.path.join(parent_directory, name)
 

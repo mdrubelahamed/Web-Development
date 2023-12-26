@@ -1,3 +1,19 @@
+## Topic
+- 
+
+
+1. Keywords
+
+
+2. Notes 
+
+
+3. Summary 
+
+---
+
+
+
 #### How does internet work ?
 - Servers
 
@@ -21,16 +37,3 @@ PRACTICE, PRACTICE, PRACTICE, PRACTICE, PRACTICE
 - PRACETIC = MASTERY
 
 
-## Topic
-- 
-
-
-1. Keywords
-
-
-2. Notes 
-
-
-3. Summary 
-
----

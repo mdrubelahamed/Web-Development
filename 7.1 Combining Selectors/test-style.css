@@ -1,0 +1,46 @@
+a {
+  background-color: #FFF78A;
+}
+
+a:hover {
+  color: red;
+}
+
+/* Select and style the meta information (class="meta") of the second blog post differently from the first one: */
+.blog-post:nth-child(2) .meta {
+  color: #2ecc71;
+}
+
+/* Apply a style to the "Read More" links inside the blog posts when hovered over */
+.read-more:hover {
+  text-decoration: underline;
+  color: #e74c3c;
+}
+
+/* Footer section */
+footer {
+  font-size: 1.2rem;
+}
+
+footer p {
+  background-color: rebeccapurple;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.402);
+}
+
+ul > li:first-child {
+  border-right: 10px solid #7B66FF;
+  font-weight: 700;
+}
+
+img:hover{
+  transform: scale(1.1);
+  border: 0.1rem solid #7B66FF;
+}
+
+header h1 {
+  color: #c0392b;
+}
+
+article h2 {
+  color: #3498db;
+}

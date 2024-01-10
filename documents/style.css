@@ -1,4 +1,4 @@
-* {
+/* * {
   background-color: #F0F0E1;
 }
 
@@ -35,4 +35,9 @@ footer {
 
 footer p {
   background-color: green;
+} */
+
+/* ############### */
+h2 {
+  display: inline-block;
 }

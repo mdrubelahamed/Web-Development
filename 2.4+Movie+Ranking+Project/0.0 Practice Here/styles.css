@@ -1,0 +1,51 @@
+
+header {
+  padding: 2px;
+  background: linear-gradient(to right, orange, blue);
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+nav li a{
+  margin: 2px;
+  border: 1px solid black;
+}
+
+nav li:hover {
+  background-color: antiquewhite;
+}
+
+nav ul li a:hover {
+  color: #910A67;
+}
+
+#main-section{
+  padding: 2px;
+  border: 2px solid black;
+}
+
+.main-article {
+  background-color: #FFB996;
+}
+
+.secondary-article {
+  background-color: #EBD9B4;
+}
+
+aside {
+  margin: 2px;
+  border: 2px solid black;
+}
+
+aside li {
+  margin: 3px;
+}
+
+footer {
+  border: 2px solid black;
+  padding: 2px;
+  margin: 2px;
+  background-color: #FFDD95;
+}

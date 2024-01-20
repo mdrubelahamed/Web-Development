@@ -1,51 +1,42 @@
-
-header {
-  padding: 2px;
-  background: linear-gradient(to right, orange, blue);
-  color: white;
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
+p {
+  color: #FB8B24;
 }
 
-nav li a{
-  margin: 2px;
-  border: 1px solid black;
+#special-element {
+  background-color: brown;
 }
 
-nav li:hover {
-  background-color: antiquewhite;
+.highlight {
+  border-style: dashed;
 }
 
-nav ul li a:hover {
-  color: #910A67;
+div ul {
+  padding: 20px;
 }
 
-#main-section{
-  padding: 2px;
-  border: 2px solid black;
+.parent-container>p {
+  font-style: italic;
 }
 
-.main-article {
-  background-color: #FFB996;
+a[href="#"] {
+  font-weight: 900;
 }
 
-.secondary-article {
-  background-color: #EBD9B4;
+img[src] {
+  border: 2px dashed black;
 }
 
-aside {
-  margin: 2px;
-  border: 2px solid black;
+input[type="text"] {
+  background-color: #C1F2B0;
 }
 
-aside li {
-  margin: 3px;
+a[href$=".pdf"] {
+  font-style: italic;
+  font-weight: 900;
+  color:rgb(0, 255, 191);
 }
 
-footer {
-  border: 2px solid black;
-  padding: 2px;
-  margin: 2px;
-  background-color: #FFDD95;
+*[data-type="important"], [class="featured"] {
+  font-weight: 900;
+  color: blue;
 }

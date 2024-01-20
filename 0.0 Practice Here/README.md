@@ -144,3 +144,130 @@ nav ul li a:hover {
   background-color: antiquewhite;
 }
 ```
+
+#### 3
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Advanced HTML Structure</title>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1>Main Title</h1>
+      <p>Subtitle or description goes here.</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="main-section">
+    <article class="main-article">
+      <h2>Featured Article</h2>
+      <p class="article-content">Content for the featured article...</p>
+    </article>
+
+    <article class="secondary-article">
+      <h2>Secondary Article</h2>
+      <p class="article-content">Content for the secondary article...</p>
+    </article>
+
+    <div class="additional-content">
+      <h2>Additional Section</h2>
+      <p>This section contains additional content.</p>
+    </div>
+  </section>
+
+  <aside>
+    <div class="aside-content">
+      <h2>Additional Information</h2>
+      <p>This is some additional content placed in the aside section.</p>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <footer>
+    <div class="footer-content">
+      <p>Contact information, footer links, etc.</p>
+      <div class="social-media">
+        <a href="https://facebook.com/mdrubelahamed01">Facebook</a>
+        <a href="https://twitter.com/mdrubelahamed01">Twitter</a>
+        <a href="https://instagram.com/mdrubelahamed01">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+```
+
+
+```
+
+header {
+  padding: 2px;
+  background: linear-gradient(to right, orange, blue);
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+nav li a{
+  margin: 2px;
+  border: 1px solid black;
+}
+
+nav li:hover {
+  background-color: antiquewhite;
+}
+
+nav ul li a:hover {
+  color: #910A67;
+}
+
+#main-section{
+  padding: 2px;
+  border: 2px solid black;
+}
+
+.main-article {
+  background-color: #FFB996;
+}
+
+.secondary-article {
+  background-color: #EBD9B4;
+}
+
+aside {
+  margin: 2px;
+  border: 2px solid black;
+}
+
+aside li {
+  margin: 3px;
+}
+
+footer {
+  border: 2px solid black;
+  padding: 2px;
+  margin: 2px;
+  background-color: #FFDD95;
+}
+```

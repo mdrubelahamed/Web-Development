@@ -1,0 +1,4 @@
+1. class selector
+2. id selector
+3. attribute selector
+4. universal selector

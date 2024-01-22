@@ -1,56 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Selector Practice</title>
-    <link rel="stylesheet" href="styles.css">
+<title>Combined Selectors Challenge</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-    <header>
-        <h1>Welcome to CSS Selector Practice</h1>
-    </header>
+<header>
+  <h1>Welcome to Our Website</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <section id="main-content">
-        <div class="highlight">
-            <p>This is a paragraph inside a highlighted div.</p>
-        </div>
+<main>
+  <section class="featured">
+    <article>
+      <h2>Featured Article</h2>
+      <p>This is the featured article content.</p>
+    </article>
+    <aside>
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 2</a></li>
+        <li><a href="#">Article 3</a></li>
+      </ul>
+    </aside>
+  </section>
 
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+  <section class="news">
+    <h2>Latest News</h2>
+    <article>
+      <h3>News Item 1</h3>
+      <p>This is the first news item.</p>
+    </article>
+    <article>
+      <h3>News Item 2</h3>
+      <p>This is the second news item.</p>
+    </article>
+  </section>
+</main>
 
-        <div id="special-element">
-            <p>This is a special element with an ID.</p>
-        </div>
-
-        <div class="parent-container">
-            <p>This is a direct child of a parent container.</p>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-        </div>
-
-        <img src="image-thumbnail.jpg" alt="Thumbnail Image">
-
-        <input type="text" placeholder="Text input">
-
-        <a href="document.pdf">Download PDF</a>
-
-        <p data-type="important" class="featured">This is an important and featured paragraph.</p>
-    </section>
-
-    <footer>
-        <p>Copyright © 2024 CSS Selector Practice</p>
-    </footer>
+<footer>
+  <p>&copy; 2024 Our Website</p>
+</footer>
 
 </body>
-
 </html>

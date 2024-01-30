@@ -1,8 +1,5 @@
-/* Don't change the existing CSS. */
-
 #outer-box {
-  border: 10px solid purple;
-  padding: 10px;
+  background-color: purple;
 }
 
 .box {
@@ -10,18 +7,17 @@
   padding: 10px;
 }
 
-/* position of .box and .inner-box */
-.inner-box {
-  background-color: red;
-}
-
-/* Combine two selector */
-.inner-box p {
-  color: white;
-}
-
 p {
   color: yellow;
   margin: 0;
   padding: 0;
 }
+
+/* the inner-box is working because it has under the class called ".box" so it has outperform the background-color: blue to red because of Position */
+.inner-box {
+  background-color: red;
+}
+
+.white-text {
+    color: white;
+  }

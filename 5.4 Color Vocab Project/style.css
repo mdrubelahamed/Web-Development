@@ -1,10 +1,6 @@
 img {
-  width: 200px;
   height: 200px;
-}
-
-.color-title {
-  font-weight: normal;
+  width: 200px;
 }
 
 #red {
@@ -19,10 +15,14 @@ img {
   color: orange;
 }
 
-#blgreenue {
+#green {
   color: green;
 }
 
 #yellow {
   color: yellow;
+}
+
+.color-title {
+  font-weight: normal;
 }

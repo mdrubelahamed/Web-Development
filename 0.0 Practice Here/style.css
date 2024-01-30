@@ -1,0 +1,25 @@
+/* Your CSS code goes here. Fill in the properties to solve the problems. */
+
+.container {
+  /* Add container styles if needed */
+}
+
+.box {
+  /* Add common box styles if needed */
+}
+
+.static-box {
+  /* Problem 1: Make the "Static" box appear below the other three boxes. */
+}
+
+.relative-box {
+  /* Problem 2: Position the "Relative" box 20 pixels down and 20 pixels to the right from its normal position. */
+}
+
+.absolute-box {
+  /* Problem 3: Position the "Absolute" box 50 pixels down and 50 pixels to the right from the top-left corner of its closest positioned ancestor. */
+}
+
+.fixed-box {
+  /* Problem 4: Make the "Fixed" box stick to the top-right corner of the viewport with a 20-pixel margin. */
+}

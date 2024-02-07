@@ -1,0 +1,50 @@
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  justify-content: space-evenly;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.nav-search {
+  width: 70%;
+}
+
+.about-links {
+  text-align: center;
+}
+
+.about-links a {
+  display: inline-block;
+  color: brown;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.about-links a:hover {
+  color: blue;
+  text-decoration: underline;
+}

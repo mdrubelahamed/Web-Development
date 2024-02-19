@@ -1,0 +1,24 @@
+.nav-bar {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-bar p {
+  border: 2px solid black;
+  flex: 0 1 0;
+}
+
+.one {
+  background-color: aqua;
+}
+
+.two {
+  background-color: blue;
+}
+
+.three {
+  background-color: brown;
+}
+.four {
+  background-color: greenyellow;
+}

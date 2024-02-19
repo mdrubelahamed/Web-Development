@@ -1,0 +1,17 @@
+.container {
+    width: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.container div {
+    color: white;
+    height: 150px;
+    background-color: rgb(29, 21, 133);
+}
+
+/* when we use auto on column it take 100% */
+/* when we use auto on row it only take to fit things comfortably */

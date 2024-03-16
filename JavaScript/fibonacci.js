@@ -28,4 +28,4 @@ function fibonacciGenerator(n) {
   }
 }
 
-fibonacciGenerator(4);
+fibonacciGenerator(10);

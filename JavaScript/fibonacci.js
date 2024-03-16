@@ -14,7 +14,7 @@ function fibonacciGenerator(n) {
   else {
     output.push(0);
     output.push(1);
-    
+
     for (var i=2; i <= n -2; i++) {
     lastValuePosition = output.length -1
     lastValue = output[lastValuePosition]
@@ -28,4 +28,4 @@ function fibonacciGenerator(n) {
   }
 }
 
-fibonacciGenerator(50)
+fibonacciGenerator(6);

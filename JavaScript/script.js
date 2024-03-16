@@ -213,3 +213,30 @@ function fizzBuzz() {
 }
 
 fizzBuzz();
+
+
+
+// Random Bill Pay
+var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"]
+function whosPaying(names) {
+    randomPersonPositon = Math.floor(Math.random() * names.length);
+    randomPerson = names[randomPersonPositon]
+    return randomPerson + " is going to buy lunch today!";
+}
+
+whosPaying(names);
+
+
+
+// 99 bottle of beer
+var num = 99;
+function beer(num) {
+    while (num >= 1) {
+        console.log(num + " bottles of the beer on the wall, " + num + " bottles of beer.\nTake one down and pass it around, " + (num -1) + " bottles of beer on the wall.\n");
+        num--;
+    }
+   console.log("No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.");
+}
+
+
+beer(num);

@@ -14,13 +14,13 @@ function fibonacciGenerator(n) {
   else {
     output.push(0);
     output.push(1);
+    
     for (var i=2; i <= n -2; i++) {
     lastValuePosition = output.length -1
     lastValue = output[lastValuePosition]
-    // console.log(lastValue)
+
     secondLastValuePosition = output.length -2
     secondLastValue = output[secondLastValuePosition]
-    // console.log(secondLastValue)
     finalValue = (lastValue + secondLastValue)
     output.push(finalValue)
   }

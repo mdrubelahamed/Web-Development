@@ -1,0 +1,21 @@
+.my-links {
+  text-align: center;
+  margin: 2%;
+}
+.my-links a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+
+.image img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#greetPeople {
+  font-size: 1.6rem;
+}

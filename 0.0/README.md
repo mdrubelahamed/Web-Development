@@ -8,3 +8,26 @@
   </div>
   <hr>
 ```
+
+```
+// This is a html and js Code block
+// where i write a dynamic code when some input a text the dom manipulation happens 
+  <h1>Greetings</h1>
+
+  Name <input type="text" id="myName" value="">
+
+  <p id="greetPeople">Hello </p>
+
+//js
+function greet(nm) {
+  document.getElementById('greetPeople').innerHTML = 'Hello ' + nm
+}
+var inputValue = document.getElementById("myName").value;
+
+document.getElementById("myName").addEventListener("input", function() {
+  inputValue = this.value;
+  greet(inputValue);
+});
+
+greet(inputValue);
+```

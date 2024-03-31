@@ -1,23 +1,5 @@
-.image-gallery {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.github-link, .twitter-link, .linkedin-link {
-  font-size: 1.5rem;
-  font-weight: 900;
-  display: inline-block;
-  text-decoration: none;
-  margin: 1rem;
-  color: brown;
-}
-
-.links {
-  text-align: center;
-}
-
-h1 {
-  text-align: center;
+.pal {
+  font-size: 2rem;
+  color: red;
+  font-weight: 700;
 }

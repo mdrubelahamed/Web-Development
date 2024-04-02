@@ -1,5 +1,5 @@
 // 99 bottle of beer
-var num = 99;
+let num = 99;
 function beer(num) {
     while (num >= 1) {
         console.log(num + " bottles of the beer on the wall, " + num + " bottles of beer.\nTake one down and pass it around, " + (num -1) + " bottles of beer on the wall.\n");

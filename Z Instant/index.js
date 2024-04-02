@@ -1,13 +1,14 @@
+/*
 // Checks is a given string palindrome or not
 // retun a boolean value is the string palindrome or not
 function isPalindrome(inputString) {
-  var lowercaseString = inputString.toLowerCase();
-  var stringLength = lowercaseString.length;
-  var reverseText = "";
+  let lowercaseString = inputString.toLowerCase();
+  let stringLength = lowercaseString.length;
+  let reverseText = "";
   
   // Iterate from the end of the string to the beginning
-  for (var i = stringLength - 1; i >= 0; i--) {
-    var lastChar = lowercaseString.charAt(i);
+  for (let i = stringLength - 1; i >= 0; i--) {
+    let lastChar = lowercaseString.charAt(i);
     reverseText += lastChar
   }
 
@@ -27,4 +28,28 @@ if (isPalindromicString) {
 else {
   let textMessage = `<u>${inputString}</u> is not a Palindrome`;
   document.getElementsByClassName("pal")[0].innerHTML = textMessage;
+}
+*/
+
+/*
+// Object Create
+let callGirl1 = {
+  name: "Raima",
+  age: 35,
+  withoutForcedWorking: true,
+  language: ["bengali", "hindi"],
+}
+
+console.log(callGirl1.language[0]);
+*/
+
+
+// House Keeper Object
+let houseKeeper1 = {
+  name: "Sanaya",
+  age: 30,
+  yearsOfExperience: 3,
+  noOfWorksDo: ["Cleaning Rooms", "Washing Clothes", "Cooking Food", "Give Head Message", "Organize Bed"],
+  chargePerMonth: 5000,
+  criminalRecord: false,
 }

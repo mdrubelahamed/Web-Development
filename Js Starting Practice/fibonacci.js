@@ -1,5 +1,5 @@
 // Fibonacci Seris using JavaScript for loop, lenght, and push
-var output = [];
+let output = [];
 
 function fibonacciGenerator(n) {
   if (n === 1) {
@@ -15,7 +15,7 @@ function fibonacciGenerator(n) {
     output.push(0);
     output.push(1);
 
-    for (var i=2; i < n; i++) {
+    for (let i=2; i < n; i++) {
     lastValuePosition = output.length -1
     lastValue = output[lastValuePosition]
 

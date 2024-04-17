@@ -1,46 +1,14 @@
-h1 {
-  background-color: red;
-  color: white;
-  border: 2px dotted black;
-}
-
-a {
-  font-size: 200%;
-}
-
-a:link {
-  color: red;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: blue;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: rgb(30, 255, 0);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active {
-  color: rgb(0, 255, 17);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.p1 {
-  font-size: 250%;
+body {
   margin: 20px;
 }
-
-.p2 {
-  font-size: 250%;
+span {
+  border: 2px solid red;
 }
-
-.g-link, .mail {
-  font-size: 200%;
+iframe {
+  border: none;
+  height: 300px;
+  width: 500px;
 }
+.para {
+    border: 2px solid black;
+  }

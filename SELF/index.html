@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html lang="en-IN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>First page</title>
+  <title>doc</title>
+  <base href="http://127.0.0.1:3000/images/">
   <link rel="stylesheet" href="styles.css">
+  <script>
+    function displayUSDateTime() {
+      const now = new Date();
+      document.getElementById('dateAndTime').innerHTML = now;
+    }
+  </script>
 </head>
 <body>
-  <h1>This is heading 1</h1>
-  <p class="p1">This is a paragraph</p>
-  <p class="p2">This is paragraph2</p>
-  
-  <a href="https://www.google.com/" target="_top" class="g-link" title="Google Default Page">Google</a>
-  <a href="https://www.google.com/"><img src="images/women_with_a_camera.jpeg" alt="women"></a>
-  <a href="i2.html"> second page</a>
-  <button onclick="document.location = 'https://www.google.com/'" title="go to google default page">Google</button>
-  <hr><hr>
+  <p class="para">Paragraph is a block level element</p>
+  <span>Span is an inline level element</span><br>
 
-  <a href="https://twitter.com/rubel1">hello1</a><br>
-  <a href="https://twitter.com/mdrubelahamed01">hello2</a><br>
-  <a href="https://twitter.com/rubel">hello3</a><br>
-  <a href="https://twitter.com/elonmusk">hello4</a><br>
+  <!-- Using base element for putting images on my page -->
+  <img src="women_with_a_camera.jpeg" alt=""><br>
+  
+  <iframe src="/extra_page.html" frameborder="0" >Iframe element</iframe><br>
+
+  <button type="button" onclick="displayUSDateTime()">Display Date & Time</button>
+
+  <p id="dateAndTime"></p>
 </body>
 </html>

@@ -1,0 +1,11 @@
+.print-page {
+  font-size: 1.1rem;
+  padding: 0.7rem;
+  margin: 0.1rem;
+  border-radius: 1.2rem;
+  background-color: #8576FF;
+}
+
+.print-page:hover {
+  background-color: #6c5af3;
+}

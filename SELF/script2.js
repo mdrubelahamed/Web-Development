@@ -1,3 +1,10 @@
+function printPage() {
+  window.print();
+}
+
+const printButton = document.querySelector(".print-page");
+printButton.addEventListener("click", printPage);
+
 function sumOfNaturalNumbers(firstNum, lastNum) {
   const beforeFirstNum = firstNum - 1;
   const beforeFirstNumSum = ((beforeFirstNum * (beforeFirstNum + 1)) / 2);

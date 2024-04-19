@@ -28,7 +28,12 @@
   font-size: 1.5rem;
 }
 
-.sum-output {
+.sum-output, .show-date {
   font-weight: 900;
   font-size: 2rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.show-url {
+  font-family: verdana;
 }

@@ -7,7 +7,7 @@ printButton.addEventListener("click", printPage);
 
 function sumOfNaturalNumbers(firstNum, lastNum) {
   if (firstNum > lastNum) {
-    return `${firstNum} > ${lastNum}. Your first number must be less than or equal to last number.`;
+    return `${firstNum} > ${lastNum}. Your last number must be greater than or equal to first number.`;
   }
   else {
     const beforeFirstNum = firstNum - 1;
@@ -31,3 +31,12 @@ const value = document.getElementById("calculate-sum").addEventListener("click",
     else {
   document.querySelector(".sum-output").textContent = `Your Output is ${result}`; }
 });
+
+
+// showing url
+function showURL() {
+  return document.URL;
+}
+const pageURL = showURL();
+
+document.querySelector(".show-url").textContent = `Current page url is "${pageURL}"`;

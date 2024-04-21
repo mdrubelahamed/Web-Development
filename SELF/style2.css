@@ -1,12 +1,20 @@
-.print-page {
-  font-size: 1.1rem;
-  padding: 0.7rem;
-  margin: 0.1rem;
-  border-radius: 1.2rem;
-  background-color: #8576FF;
+h1, h2 {
+  font-size: 2rem;
+  color: rgb(94, 89, 171);
 }
 
-.print-page:hover {
+#calculate-sum, .print-page {
+  margin: 3%;
+  padding: 2%;
+  border: 2px solid #ffffff;
+  border-radius: 1.8rem;
+  background-color: orangered;
+  color: white;
+  font-weight: 799;
+  font-size: 1.5rem;
+}
+
+#calculate-sum:hover, .print-page:hover {
   background-color: #6c5af3;
 }
 
@@ -15,25 +23,15 @@
   margin: 0.5rem;
   padding: 0.5rem;
   border: 2px solid #8576FF;
-  border-radius: 2rem;
-}
-
-#calculate-sum {
-  margin: 3%;
-  padding: 2%;
-  border: 4px solid #8576FF;
-  border-radius: 2rem;
-  color: red;
-  font-weight: 799;
-  font-size: 1.5rem;
+  border-radius: 1.7rem;
 }
 
 .sum-output, .show-date {
   font-weight: 900;
   font-size: 2rem;
-  font-family:'Courier New', Courier, monospace;
+  font-family: cursive;
 }
 
 .show-url {
-  font-family: verdana;
+  font-family: cursive;
 }

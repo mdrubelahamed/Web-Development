@@ -3,6 +3,16 @@ h1, h2 {
   color: rgb(94, 89, 171);
 }
 
+.p-greet {
+  font-size: 1.5rem;
+  font-family: cursive;
+  color: blue;
+}
+
+.show-url {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 #calculate-sum, .greet, .mutiply, .divide {
   margin: 1%;
   padding: 1%;
@@ -11,21 +21,6 @@ h1, h2 {
   background-color: orangered;
   color: white;
   font-size: 1.5rem;
-}
-
-.print-page {
-  margin: 1%;
-  padding: 1%;
-  border: 2px solid #ffffff;
-  border-radius: 1.8rem;
-  background-color: orangered;
-  color: white;
-  font-weight: 799;
-  font-size: 1.5rem;
-}
-
-#calculate-sum:hover, .print-page:hover {
-  background-color: rgb(210, 67, 15);
 }
 
 #num1, #num2 {
@@ -42,17 +37,18 @@ h1, h2 {
   font-family: cursive;
 }
 
-.show-url {
-  font-family: 'Times New Roman', Times, serif;
-}
-
 .equal-sign {
   font-size: 2rem;
   color: rgb(94, 89, 171);
 }
 
-.p-greet {
+.print-page {
+  margin: 1%;
+  padding: 1%;
+  border: 2px solid #ffffff;
+  border-radius: 1.8rem;
+  background-color: orangered;
+  color: white;
+  font-weight: 799;
   font-size: 1.5rem;
-  font-family: cursive;
-  color: blue;
 }

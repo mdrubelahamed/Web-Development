@@ -5,7 +5,7 @@ h1, h2 {
 
 #calculate-sum, .print-page {
   margin: 3%;
-  padding: 2%;
+  padding: 1%;
   border: 2px solid #ffffff;
   border-radius: 1.8rem;
   background-color: orangered;
@@ -15,7 +15,7 @@ h1, h2 {
 }
 
 #calculate-sum:hover, .print-page:hover {
-  background-color: #6c5af3;
+  background-color: rgb(210, 67, 15);
 }
 
 #num1, #num2 {
@@ -34,4 +34,9 @@ h1, h2 {
 
 .show-url {
   font-family: cursive;
+}
+
+.equal-sign {
+  font-size: 2rem;
+  color: rgb(94, 89, 171);
 }

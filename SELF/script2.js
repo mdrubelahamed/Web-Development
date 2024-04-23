@@ -29,7 +29,7 @@ const value = document.getElementById("calculate-sum").addEventListener("click",
   if (typeof result == "string"){
     document.querySelector(".sum-output").textContent = result; }
     else {
-  document.querySelector(".sum-output").textContent = `Your Output is ${result}`; }
+  document.querySelector(".sum-output").innerHTML = ` ${result}`; }
 });
 
 
@@ -40,3 +40,17 @@ function showURL() {
 const pageURL = showURL();
 
 document.querySelector(".show-url").textContent = `Current page url is "${pageURL}"`;
+
+
+// arrow key
+
+// let myFunc = function(a, b) {
+//   return a + b;
+// }
+
+const myFunc = (a, b) => a + b;
+
+console.log(myFunc(2,5));
+
+
+

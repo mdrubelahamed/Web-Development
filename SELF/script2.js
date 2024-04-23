@@ -27,9 +27,9 @@ const value = document.getElementById("calculate-sum").addEventListener("click",
   const result = sumOfNaturalNumbers(parseInt(firstNum.value), parseInt(lastNum.value))
 
   if (typeof result == "string"){
-    document.querySelector(".sum-output").textContent = result; }
+    document.querySelector(".sum-output").innerHTML = `${result}`; }
     else {
-  document.querySelector(".sum-output").innerHTML = ` ${result}`; }
+  document.querySelector(".sum-output").innerHTML = `Sum = ${result}`; }
 });
 
 
@@ -42,15 +42,33 @@ const pageURL = showURL();
 document.querySelector(".show-url").textContent = `Current page url is "${pageURL}"`;
 
 
-// arrow key
+// greet
 
-// let myFunc = function(a, b) {
-//   return a + b;
-// }
+const greet = function() {
+  const name = prompt("What is your name ");
+  document.querySelector(".p-greet").innerHTML = `${name} I am really thankful to you, for visiting my page💗`;
+}
 
-const myFunc = (a, b) => a + b;
+greetButton = document.querySelector(".greet").addEventListener("click", greet);
 
-console.log(myFunc(2,5));
 
+// Multiply and devide
+
+const multiplication = (a, b) => a * b;
+const division = (a, b) => a / b;
+
+const multiply = document.querySelector(".mutiply").addEventListener("click", function() {
+  const a = parseFloat(document.querySelector("#num1").value);
+  const b = parseFloat(document.querySelector("#num2").value);
+  const result = multiplication(a, b);
+  document.querySelector(".sum-output").innerHTML = `${a} × ${b} = ${result}`;
+});
+
+const divide = document.querySelector(".divide").addEventListener("click", function() {
+  const a = parseFloat(document.querySelector("#num1").value);
+  const b = parseFloat(document.querySelector("#num2").value);
+  const result = division(a, b).toFixed(2);
+  document.querySelector(".sum-output").innerHTML = `${a} ÷ ${b} = ${result}`;
+});
 
 

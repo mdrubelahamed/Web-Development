@@ -19,11 +19,11 @@ function sumOfNaturalNumbers(firstNum, lastNum) {
 }
 
 
-let firstNum = document.querySelector("#num1");
-let lastNum = document.querySelector("#num2");
 
 
 const value = document.getElementById("calculate-sum").addEventListener("click", function() {
+  let firstNum = document.querySelector("#num1");
+  let lastNum = document.querySelector("#num2");
   const result = sumOfNaturalNumbers(parseInt(firstNum.value), parseInt(lastNum.value))
 
   if (typeof result == "string"){
@@ -46,7 +46,12 @@ document.querySelector(".show-url").textContent = `Current page url is "${pageUR
 
 const greet = function() {
   const name = prompt("What is your name ");
-  document.querySelector(".p-greet").innerHTML = `${name} I am really thankful to you, for visiting my page💗`;
+  if (name === null || name === "") {
+    document.querySelector(".p-greet").innerHTML = `🙏Please enter your name`;
+  }
+  else {
+    document.querySelector(".p-greet").innerHTML = `${name} I am really thankful to you, for visiting my page💗`;
+  }
 }
 
 greetButton = document.querySelector(".greet").addEventListener("click", greet);

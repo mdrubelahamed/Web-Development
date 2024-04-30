@@ -1,0 +1,33 @@
+button {
+  padding: 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 2rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#greet {
+  font-size: 1.5rem;
+}
+
+#num1, #num2 {
+  margin: 5px;
+  font-size: 2rem;
+}
+
+label[for="num1"], label[for="num2"] {
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+.calculate-result {
+  font-size: 2rem;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #333;
+}

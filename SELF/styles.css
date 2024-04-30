@@ -1,14 +1,112 @@
 body {
-  margin: 20px;
+  background-color: black;
+  color: white;
 }
-span {
+
+textarea {
+  width: 14rem;
+  height: 7rem;
+}
+
+label, input[type="text"], input[type="file"] {
+  margin: 0.5rem;
+  height: 2rem;
+}
+
+.day-mode {
+  background-color: white;
+  color: black;
+}
+
+.day-night-btn, .display-date, .clickme-btn {
+  padding: 0.3rem;
+  margin: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 1.3rem;
+}
+
+.paragraph {
   border: 2px solid red;
 }
-iframe {
-  border: none;
-  height: 300px;
-  width: 500px;
+
+.span {
+  border: 2px solid blue
 }
-.para {
-    border: 2px solid black;
+
+.container {
+  display: flex;
+}
+
+.left, .right, .main {
+  margin: 0;
+  padding: 0.3rem;
+}
+
+.left {
+  background-color: red;
+  flex: 1 0 20%;
+}
+
+.main {
+  background-color: green;
+  flex: 1 0 60%;
+}
+
+
+.right {
+  background-color: blue;
+  flex: 1 0 20%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
   }
+  .left, .main, .right {
+    flex: 1 0 100%;
+  }
+}
+
+input[type="radio"] {
+  accent-color: green;
+}
+
+input[type="checkbox"] {
+  accent-color: green;
+}
+
+.day-mode-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.day-night-btn {
+  border-radius: 70%;
+}
+
+.js-page {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.day-mode a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.submit {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 2rem;
+}
+
+
